@@ -1,4 +1,4 @@
-# 🤖 ML Expert Chatbot
+# 🤖 AI Expert Chatbot
 
 A conversational AI chatbot built with **LangChain** + **Groq** + **Streamlit** that answers Machine Learning and AI questions in beginner-friendly language.
 
@@ -82,22 +82,6 @@ langchain-groq
 python-dotenv
 ```
 
----
-
-## Deploying to Streamlit Cloud
-
-1. Push your code to GitHub (make sure `.env` is in `.gitignore`)
-2. Go to [share.streamlit.io](https://share.streamlit.io) and connect your repo
-3. Add your secret under **Settings → Secrets**:
-
-```toml
-GROQ_API_KEY = "your_groq_api_key_here"
-```
-
-4. Click **Deploy** — your app gets a public URL in ~2 minutes.
-
----
-
 ## Usage
 
 1. Enter your name to start a session
@@ -106,9 +90,3 @@ GROQ_API_KEY = "your_groq_api_key_here"
 4. Use **Switch User** to start a new session
 
 > Questions outside ML/AI (anime, sports, etc.) will be politely declined.
-
----
-
-## License
-
-MIT
